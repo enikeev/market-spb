@@ -310,7 +310,6 @@ $(function(){
 
 		stickerScrollAnimate = setTimeout(function(){
 			stickerScroll();
-			console.log('scrolled')
 		}, 300);
 	});
 

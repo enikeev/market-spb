@@ -8,6 +8,7 @@
 	<meta name="description" content="" />
 	<link href="css/style.css" rel="stylesheet">
 	<script type="text/javascript" src="js/jquery.min.js"></script> <!-- jquery 1.9.0 -->
+	<script type="text/javascript" src="js/modernizr.js"></script>
 	<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
 	<script type="text/javascript" src="js/jquery.ui.slider.js"></script>
 	<script type="text/javascript" src="js/mCustomScrollbar.min.js"></script>
@@ -18,8 +19,56 @@
 <body>
 
 <div class="wrapper">
+<div class="inner">
+	<div class="sticker">
+		<div class="sticker-item sticker-item_guide">
+			<span>Руководство<br>по сайту</span>
+		</div>
+		<div class="sticker-item sticker-item_delivery">
+			<span>Доставка</span>
+		</div>
+		<div class="sticker-item sticker-item_looked">
+			<span>Вы уже<br>смотрели</span>
+			<div class="looked-slider flexslider">
+				<ul class="slides">
+					<li>
+						<a href="#"><img src="img/upload/prod-0000_p.jpg" alt=""></a>
+						<a href="#"><img src="img/upload/prod-0001_p.jpg" alt=""></a>
+						<a href="#"><img src="img/upload/prod-0002_p.jpg" alt=""></a>
+						<div class="page">1/5</div>
+					</li>
+					<li>
+						<a href="#"><img src="img/upload/prod-0003_p.jpg" alt=""></a>
+						<a href="#"><img src="img/upload/prod-0004_p.jpg" alt=""></a>
+						<a href="#"><img src="img/upload/prod-0005_p.jpg" alt=""></a>
+						<div class="page">2/5</div>
+					</li>
+					<li>
+						<a href="#"><img src="img/upload/prod-0002_p.jpg" alt=""></a>
+						<a href="#"><img src="img/upload/prod-0003_p.jpg" alt=""></a>
+						<a href="#"><img src="img/upload/prod-0004_p.jpg" alt=""></a>
+						<div class="page">3/5</div>
+					</li>
+					<li>
+						<a href="#"><img src="img/upload/prod-0000_p.jpg" alt=""></a>
+						<a href="#"><img src="img/upload/prod-0001_p.jpg" alt=""></a>
+						<a href="#"><img src="img/upload/prod-0002_p.jpg" alt=""></a>
+						<div class="page">4/5</div>
+					</li>
+					<li>
+						<a href="#"><img src="img/upload/prod-0003_p.jpg" alt=""></a>
+						<a href="#"><img src="img/upload/prod-0004_p.jpg" alt=""></a>
+						<a href="#"><img src="img/upload/prod-0005_p.jpg" alt=""></a>
+						<div class="page">5/5</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="sticker-item sticker-item_up"></div>
+	</div>
+</div>
 
-	<div class="nav outer clearfix">
+<div class="nav outer clearfix">
 		<nav class="inner">
 			<ul class="nav-list nav-list_site">
 				<li class="nav-link"><a href="#">Адрес и контакты</a></li>
@@ -830,6 +879,38 @@
 	</footer><!-- .footer -->
 
 </div><!-- .wrapper -->
+
+<div class="feedback-popup feedback-popup_dim">
+	<div class="feedback-popup__close"></div>
+	<div class="feedback-popup__inner">
+		<div class="title">Бесплатный вызов замерщика</div>
+		<div class="field">
+			<div class="field-label">Ваше имя</div>
+			<div class="field-input"><input type="text"></div>
+		</div>
+		<div class="field">
+			<div class="field-label">Номер телефона<i class="required"></i></div>
+			<div class="field-input"><input type="text" class="required"></div>
+		</div>
+		<div class="field">
+			<div class="field-label">Время звонка</div>
+			<div class="field-input">
+				<span class="field-input__text">c</span>
+				<input type="text" class="time">
+				<span class="field-input__text">до</span>
+				<input type="text" class="time">
+			</div>
+		</div>
+		<div class="field">
+			<div class="field-label">Ваш адрес<i class="required"></i></div>
+			<div class="field-input"><input type="text" class="required"></div>
+		</div>
+		<div class="footnote">Поля, отмеченные <i class="required"></i> обязательны для заполнения</div>
+		<div class="submit">
+			<a href="#" class="btn">Заказать звонок</a>
+		</div>
+	</div>
+</div>
 
 </body>
 </html>
