@@ -1,0 +1,96 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+html, body {
+	-webkit-text-size-adjust: none;
+	-webkit-text-size-adjust: none!important;
+	-ms-text-size-adjust: none;
+	-ms-text-size-adjust: none!important;
+	text-size-adjust: none;
+	text-size-adjust: none!important;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, main, section, summary {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+b{
+	font-weight: 600;
+}
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End of Eric Meyer's CSS Reset */
+
+html {
+	height: 100%;
+	background: url("../img/global/bg.jpg") repeat top center;
+}
+
+body {
+	font-size: 14px;
+	/*font-family: 'Segoe UI', 'SegoeUI', sans-serif;*/
+	font-family: 'SUI', sans-serif;
+	width: 100%;
+	min-height: 100%;
+	line-height: 1.2;
+	color: #282119;
+	letter-spacing: -0.1px;
+}
+input, textarea{
+	font: inherit;
+}
+
+* {outline:none;}
+
+input::-webkit-search-cancel-button {display: none;}
+label {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+a {
+	text-decoration:none;
+	color:inherit;
+}
+
+a:hover {
+	color:inherit;
+	text-decoration:underline;
+}
+
+hr{
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #d4d3d1;
+	margin: 0;
+}
+
+.clearfix:after, .clearfix:before{
+	content:"";
+	display:table;
+	clear:both;
+}

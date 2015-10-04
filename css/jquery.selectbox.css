@@ -1,0 +1,154 @@
+@CHARSET "UTF-8";
+
+.filter{
+	/*padding-top: 50px;*/
+}
+.filter__select{
+	display: inline-block;
+	padding: 5px 20px 30px 0;
+}
+.sbHolder{
+	background-color: #fff;
+	font-size: 15px;
+	height: 23px;
+	position: relative;
+	width: 225px;
+	border-radius: 2px;
+	color: #616161;
+	font-weight: 100;
+
+	border: 1px solid #b8b8b7;
+}
+.sbHolder:focus .sbSelector{
+	
+}
+.sbSelector{
+	display: block;
+	height: 23px;
+	left: 0;
+	line-height: 20px;
+	outline: none;
+	overflow: hidden;
+	position: absolute;
+	text-indent: 10px;
+	top: 0;
+	width: 200px;
+
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.sbSelector:link, .sbSelector:visited, .sbSelector:hover{
+	color: #282119;
+	outline: none;
+	text-decoration: none;
+}
+.sbToggle{
+	display: block;
+	height: 23px;
+	outline: none;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 25px;
+	border-left: 1px solid #b8b8b7;
+
+	background: url("../img/icons/sel-arrow-down.png") no-repeat 50% 50%;
+}
+
+.sbToggle:hover{
+}
+/*.sbToggleOpen:after{
+	background: url("../img/global/arrow-up-b.svg") no-repeat 50% 50% ;
+}*/
+.sbToggleOpen{
+	background: url("../img/icons/sel-arrow-up.png") no-repeat 50% 50%;
+}
+.sbToggleOpen:hover{
+}
+.sbHolderDisabled{
+	background-color: #3C3C3C;
+	border: solid 1px #515151;
+	padding: 10px;
+}
+.sbHolderDisabled .sbHolder{
+	
+}
+.sbHolderDisabled .sbToggle{
+	
+}
+.sbOptions{
+	list-style: none;
+	left: -1px;
+	margin: 0;
+	position: absolute;
+	top: 24px;
+	z-index: 1;
+	background-color: #fff;
+	/*overflow-y: auto;*/
+	border: 1px solid #b8b8b7;
+	padding: 5px 0;
+	width: 100%;
+}
+.sbOptions li{
+	padding: 0 10px;
+	overflow: hidden;
+}
+.sbOptions li a{
+	max-width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.sbOptions a{
+	display: inline-block;
+	outline: none;
+	padding: 2px 0;
+	font-size: inherit;
+}
+.sbOptions a:link, .sbOptions a:visited{
+	color: #282119;
+}
+.sbOptions a:hover,
+.sbOptions a:focus,
+.sbOptions a.sbFocus{
+
+}
+.sbOptions li.last a{
+	border-bottom: none;
+}
+.sbOptions .sbDisabled{
+	color: #999;
+	display: block;
+	padding: 7px 0 7px 3px;
+}
+.sbOptions .sbGroup{
+	color: #EBB52D;
+	display: block;
+	font-weight: bold;
+	padding: 7px 0 7px 3px;
+}
+.sbOptions .sbSub{
+	padding-left: 17px;
+}
+
+
+
+
+
+.breadcrumbs .sbHolder{
+	font-size: 12px;
+	height: 18px;
+	border-radius: 0;
+	width: 210px;
+}
+
+.breadcrumbs .sbSelector {
+	height: 18px;
+	line-height: 16px;
+	width: 180px;
+}
+
+.breadcrumbs .sbToggle {
+	height: 18px;
+	width: 18px;
+}

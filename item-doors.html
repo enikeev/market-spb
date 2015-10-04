@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<title>Market-SPb интернет магазин товаров для дома</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link href="css/style.css" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery.min.js"></script> <!-- jquery 1.9.0 -->
+	<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="js/jquery.ui.slider.js"></script>
+	<script type="text/javascript" src="js/mCustomScrollbar.min.js"></script>
+	<script type="text/javascript" src="js/jquery.selectbox-0.2.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+	<div class="nav outer clearfix">
+		<nav class="inner">
+			<ul class="nav-list nav-list_site">
+				<li class="nav-link"><a href="#">Адрес и контакты</a></li>
+				<li class="nav-link"><a href="#">Как сделать заказ</a></li>
+				<li class="nav-link"><a href="#">Оплата</a></li>
+				<li class="nav-link"><a href="#">Доставка</a></li>
+				<li class="nav-link"><a href="#">Гарантии и возврат</a></li>
+			</ul>
+			<ul class="nav-list nav-list_user">
+				<li class="nav-link"><a href="#"><i class="icon-lk"></i> Личный кабинет</a></li>
+				<li class="nav-link"><a href="#"><i class="icon-login"></i> Вход</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<header class="header inner clearfix">
+		<div class="header-logo"><a href="#"><img src="img/global/logo.png" alt=""></a></div>
+		<div class="header-contact">
+			<div class="header-contact__phone">8 (800) <b>555 54 22</b> / 8 (812) <b>702 87 33</b></div>
+			<div class="header-contact__text">
+				Прием звонков : <b>пн-вс с 9:00 до 20:00</b><br>
+				Прием заказов на сайте : <b>круглосуточно</b>
+			</div>
+		</div>
+		<div class="header-panel">
+			<div class="header-panel__item header-panel__item_call">
+				<div class="text">Заказать<br>обратный<br>звонок</div>
+			</div>
+			<div class="header-panel__item header-panel__item_dim">
+				<div class="text">Бесплатный<br>вызов<br>замерщика</div>
+			</div>
+			<div class="header-panel__item header-panel__item_cart">
+				<div class="text">КОРЗИНА<br>
+					<a href="#" class="no-reload">20 товаров</a> на 239 950 руб.
+				</div>
+			</div>
+		</div>
+	</header><!-- .header-->
+
+	<div class="content inner clearfix">
+		<div class="aside-left">
+			<menu class="menu menu_dropdown">
+				<div class="menu-head">Каталог товаров</div>
+				<div class="menu-body">
+					<ul class="menu-list">
+						<li class="menu-item"><a href="#" class="menu-link menu-link_action">Распродажа товаров</a></li>
+						<li class="menu-item"><a class="menu-link" href="#">Стройматериалы</a></li>
+						<li class="menu-item"><a class="menu-link" href="#">Столярные изделия</a></li>
+						<li class="menu-item"><a class="menu-link" href="#">Электротовары</a></li>
+						<li class="menu-item"><a class="menu-link" href="#">Инструменты</a></li>
+						<li class="menu-item menu-item_submenu">
+							<a class="menu-link" href="#">Напольные покрытия</a>
+							<div class="submenu">
+								<div class="submenu-title">Декоративные напольные покрытия</div>
+								<div class="submenu-item"><a class="submenu-link" href="#">Ламинат</a></div>
+								<div class="submenu-item"><a class="submenu-link" href="#">Паркетная доска</a></div>
+								<div class="submenu-item"><a class="submenu-link" href="#">Плитка ПВХ</a></div>
+								<div class="submenu-item"><a class="submenu-link" href="#">Пробковый пол</a></div>
+								<div class="submenu-item"><a class="submenu-link" href="#">Инженерная доска</a></div>
+								<div class="submenu-title">Аксессуары для напольных покрытий</div>
+								<div class="submenu-item"><a class="submenu-link" href="#">Подложка</a></div>
+								<div class="submenu-item"><a class="submenu-link" href="#">Плинтус</a></div>
+								<div class="submenu-item"><a class="submenu-link" href="#">Комплектующие</a></div>
+							</div>
+						</li>
+						<li class="menu-item"><a class="menu-link" href="#">Плитка</a></li>
+						<li class="menu-item"><a class="menu-link" href="#">Сантехника</a></li>
+						<li class="menu-item"><a class="menu-link" href="#">Водоснабжение</a></li>
+						<li class="menu-item"><a class="menu-link" href="#">Сад</a></li>
+						<li class="menu-item"><a class="menu-link" href="#">Скобяные изделия</a></li>
+						<li class="menu-item"><a class="menu-link" href="#">Краски</a></li>
+						<li class="menu-item"><a class="menu-link" href="#">Декор</a></li>
+						<li class="menu-item"><a class="menu-link" href="#">Освещение</a></li>
+						<li class="menu-item"><a class="menu-link" href="#">Хранение</a></li>
+						<li class="menu-item"><a class="menu-link" href="#">Кухни</a></li>
+					</ul>
+				</div>
+			</menu>
+		</div>
+
+		<div class="aside-center">
+			<div class="search">
+				<div class="search-category">
+					<div class="search-category__targ">Все категории</div>
+					<ul class="search-list">
+						<li class="search-item"><a class="search-link active" href="#">Все категории</a></li>
+						<li class="search-item"><a class="search-link" href="#">Стройматериалы</a></li>
+						<li class="search-item"><a class="search-link" href="#">Столярные изделия</a></li>
+						<li class="search-item"><a class="search-link" href="#">Электротовары</a></li>
+						<li class="search-item"><a class="search-link" href="#">Инструменты</a></li>
+						<li class="search-item"><a class="search-link" href="#">Напольные покрытия</a></li>
+						<li class="search-item"><a class="search-link" href="#">Плитка</a></li>
+						<li class="search-item"><a class="search-link" href="#">Сантехника</a></li>
+						<li class="search-item"><a class="search-link" href="#">Водоснабжение</a></li>
+						<li class="search-item"><a class="search-link" href="#">Сад</a></li>
+						<li class="search-item"><a class="search-link" href="#">Скобяные изделия</a></li>
+						<li class="search-item"><a class="search-link" href="#">Краски</a></li>
+						<li class="search-item"><a class="search-link" href="#">Декор</a></li>
+						<li class="search-item"><a class="search-link" href="#">Освещение</a></li>
+						<li class="search-item"><a class="search-link" href="#">Хранение</a></li>
+						<li class="search-item"><a class="search-link" href="#">Кухни</a></li>
+					</ul>
+				</div>
+				<div class="search-input"><input class="search-input__field" type="text" placeholder="Введите название для поиска среди 39 000 товаров. Например : паркетная доска ALLORO"></div>
+				<div class="search-submit"><span class="search-submit__btn">Найти</span></div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="breadcrumbs inner clearfix">
+		<div class="breadcrumbs-item">Главная</div>
+		<div class="breadcrumbs-item">
+			<select>
+				<option>Напольные покрытия</option>
+				<option>Напольные покрытия</option>
+				<option>Напольные покрытия</option>
+				<option>Напольные покрытия</option>
+				<option>Напольные покрытия</option>
+			</select>
+		</div>
+		<div class="breadcrumbs-item">
+			<b>Дверь дуб шервуд 50.66</b>
+		</div>
+	</div>
+
+	<div class="content inner clearfix">
+
+		<div class="product">
+			<div class="product-info">
+				<div class="product-left">
+					<div class="img">
+						<div class="label">Спецпредложение</div>
+						<img src="img/upload/prod-0000.jpg" alt="">
+					</div>
+					<div class="preview">
+						<a href="img/upload/prod-0000.jpg" class="preview-item active"><img src="img/upload/prod-0000_p.jpg" alt=""></a>
+						<a href="img/upload/prod-0001.jpg" class="preview-item"><img src="img/upload/prod-0001_p.jpg" alt=""></a>
+						<a href="img/upload/prod-0002.jpg" class="preview-item"><img src="img/upload/prod-0002_p.jpg" alt=""></a>
+						<a href="img/upload/prod-0003.jpg" class="preview-item"><img src="img/upload/prod-0003_p.jpg" alt=""></a>
+					</div>
+				</div>
+				<div class="product-center">
+					<div class="name"><strong>Краснодеревщик</strong>  |  Дверь дуб шервуд 50.66</div>
+					<div class="articul">Артикул : L0320 01778 </div>
+
+					<div class="spec">
+						<table>
+							<tbody class="bortop coldar">
+							<tr>
+								<td><span class="title">Полотно</span></td>
+								<td><span class="price">1 138 руб.</span> <span class="footnote">(в одной упаковке 2,844 кв.м)</span></td>
+							</tr>
+							<tr>
+								<td>Размер</td>
+								<td>
+									<div class="select">
+										<select>
+											<option>600 x 2000</option>
+											<option>700 x 2000</option>
+											<option>800 x 2000</option>
+											<option>900 x 2000</option>
+											<option>1000 x 2000</option>
+										</select>
+									</div>
+									<div class="amount" data-val="1138">
+										<div class="amount-val">
+											<div class="js-amount-val-down amount-val__inner amount-val__inner_down"></div>
+											<div class="amount-val__inner amount-val__inner_num">
+												<input type="text" value="0">
+											</div>
+											<div class="js-amount-val-up amount-val__inner amount-val__inner_up"></div>
+										</div>
+										<div class="amount-clear js-amount-val-clear">
+										</div>
+										<div class="amount-result price">
+											<span class="val">0</span> руб.
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>Цвет</td>
+								<td>
+									<div class="kind">
+										<div class="kind-item active"><img src="img/upload/kind-0001.jpg" alt=""></div>
+										<div class="kind-item"><img src="img/upload/kind-0002.jpg" alt=""></div>
+										<div class="kind-item"><img src="img/upload/kind-0003.jpg" alt=""></div>
+										<div class="kind-item"><img src="img/upload/kind-0004.jpg" alt=""></div>
+										<div class="kind-item"><img src="img/upload/kind-0005.jpg" alt=""></div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>Цвет стекла</td>
+								<td>
+									<div class="kind">
+										<div class="kind-item active"><img src="img/upload/kind-0006.jpg" alt=""></div>
+										<div class="kind-item"><img src="img/upload/kind-0007.jpg" alt=""></div>
+									</div>
+								</td>
+							</tr>
+							</tbody>
+
+							<tbody class="bortop coldar">
+							<tr>
+								<td><span class="title">Погонаж</span></td>
+								<td><span class="footnote">(в одной упаковке 2,844 кв.м)</span></td>
+							</tr>
+							<tr>
+								<td>Коробка</td>
+								<td>
+									<div class="select">
+										<select>
+											<option>Выбрать</option>
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+										</select>
+									</div>
+									<div class="amount" data-val="1138">
+										<div class="amount-val">
+											<div class="js-amount-val-down amount-val__inner amount-val__inner_down"></div>
+											<div class="amount-val__inner amount-val__inner_num">
+												<input type="text" value="1">
+											</div>
+											<div class="js-amount-val-up amount-val__inner amount-val__inner_up"></div>
+										</div>
+										<div class="amount-clear js-amount-val-clear">
+										</div>
+										<div class="amount-result price">
+											<span class="val">0</span> руб.
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>Наличник</td>
+								<td>
+									<div class="select">
+										<select>
+											<option>Выбрать</option>
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+										</select>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>Добор</td>
+								<td>
+									<div class="select">
+										<select>
+											<option>Выбрать</option>
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+										</select>
+									</div>
+								</td>
+							</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<div class="status">
+						<div class="status-item">
+							<div class="status-marker"><img src="img/icons/prod-stat_natur.png" alt=""></div>
+							<div class="status-text">Натуральные<br>материалы</div>
+						</div>
+						<div class="status-item">
+							<div class="status-marker"><img src="img/icons/prod-stat_guarant.png" alt=""></div>
+							<div class="status-text">Гарантия<br>12 месяцев</div>
+						</div>
+						<div class="status-item">
+							<div class="status-marker"><img src="img/icons/prod-stat_waterproof.png" alt=""></div>
+							<div class="status-text">Не боится<br>влаги</div>
+						</div>
+						<div class="status-item">
+							<div class="status-marker"><img src="img/icons/prod-stat_no-nail.png" alt=""></div>
+							<div class="status-text">Крепление без<br>молотка и гвоздей</div>
+						</div>
+						<div class="status-item">
+							<div class="status-marker"><img src="img/icons/prod-stat_no-glue.png" alt=""></div>
+							<div class="status-text">Не нужен<br>клей</div>
+						</div>
+					</div>
+
+
+				</div>
+				<div class="product-right">
+					<div class="purchase">
+						<div class="purchase-status in-stock">В НАЛИЧИИ</div>
+						<div class="purchase-price">
+							<table>
+								<tr>
+									<td>Цена за полотно :</td>
+									<td class="val">1 138 руб.</td>
+								</tr>
+								<tr>
+									<td>Погонаж :</td>
+									<td class="val">7 535 руб.</td>
+								</tr>
+							</table>
+						</div>
+						<div class="purchase-cost">
+							<div class="title">ЦЕНА КОМПЛЕКТА</div>
+							<div class="val">11 138 руб. <div class="tooltip" data-tooltip-title="<span style='color:#959595;'>Подсказка</span>" data-tooltip-text="Подсказка в всплывающем окне"><i class="icon_question"></i></div></div>
+						</div>
+						<div class="purchase-tocart">
+							<a href="#" class="btn">Добавить в корзину</a>
+						</div>
+						<div class="purchase-add">
+							<a href="#" class="btn btn_compare">К сравнению</a>
+							<a href="#" class="btn btn_fav">В закладки</a>
+						</div>
+						<div class="purchase-one">
+							<a href="#" class="btn">Купить в 1 клик</a>
+						</div>
+					</div>
+					<div class="share">
+						<div class="title">Поделиться</div>
+						<script type="text/javascript">(function() {
+							if (window.pluso)if (typeof window.pluso.start == "function") return;
+							if (window.ifpluso==undefined) { window.ifpluso = 1;
+								var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+								s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
+								s.src = ('https:' == window.location.protocol ? 'https' : 'http')  + '://share.pluso.ru/pluso-like.js';
+								var h=d[g]('body')[0];
+								h.appendChild(s);
+							}})();</script>
+						<div class="pluso" data-background="transparent" data-options="big,square,line,horizontal,nocounter,theme=06" data-services="vkontakte,facebook,twitter,google,odnoklassniki"></div>
+					</div>
+				</div>
+			</div>
+			<div class="product-tabs js-tab-wrap">
+				<div class="tab-menu">
+					<div class="tab-link active" data-tab-link="p1">Описание</div>
+					<div class="tab-link" data-tab-link="p2">Отзывы</div>
+				</div>
+
+				<div class="tab-list">
+					<div class="tab-item active" data-tab-item="p1">
+						<div class="head clearfix">
+							<div class="text"><strong>Ламинат PERGO Living Expression Сланец Темно-Серый</strong> - это то место, где всегда хочется хорошо себя чувствовать. К нему относятся не
+								только идеальные четыре стены и прекрасная обстановка: настоящее чувство домашнего уюта создаёт также пол, соответствующий стилю
+								жизни и являющийся прекрасной основой повседневной жизни. Надёжно и безопасно.</div>
+							<div class="logo"><img src="img/brands/004.png" alt=""></div>
+						</div>
+						<div class="clearfix">
+							<div class="aside">
+								<table class="table">
+									<tbody>
+									<tr>
+										<td><span>Тип товара <div class="tooltip" data-tooltip-title="<span style='color:#959595;'>Подсказка</span>" data-tooltip-text="Подсказка в всплывающем окне"><i class="icon_question"></i></div></span></td>
+										<td class="val"><span>Ламинат</span></td>
+									</tr>
+									<tr>
+										<td><span>Производитель <div class="tooltip" data-tooltip-title="<span style='color:#959595;'>Подсказка</span>" data-tooltip-text="Подсказка в всплывающем окне"><i class="icon_question"></i></div></span></td>
+										<td class="val"><span>Wineo</span></td>
+									</tr>
+									<tr>
+										<td><span>Коллекция</span></td>
+										<td class="val"><span>Floorpan Purple <div class="tooltip" data-tooltip-title="<span style='color:#959595;'>Подсказка</span>" data-tooltip-text="Подсказка в всплывающем окне"><i class="icon_question"></i></div></span></td>
+									</tr>
+									<tr>
+										<td><span>Селекция</span></td>
+										<td class="val"><span>Натур</span></td>
+									</tr>
+									<tr>
+										<td><span>Тип соединения</span></td>
+										<td class="val"><span>Замковое (Uniclic) </span></td>
+									</tr>
+									<tr>
+										<td><span>Наличие фаски</span></td>
+										<td class="val"><span>Без фаски</span></td>
+									</tr>
+									<tr>
+										<td><span>Поверхность</span></td>
+										<td class="val"><span>Полуматовая</span></td>
+									</tr>
+									<tr>
+										<td><span>Размеры</span></td>
+										<td class="val"><span>1380 х 193 х 6</span></td>
+									</tr>
+									<tr>
+										<td><span>Оттенок</span></td>
+										<td class="val"><span>Натуральный</span></td>
+									</tr>
+									<tr>
+										<td><span>Класс нагрузки</span></td>
+										<td class="val"><span>31 класс</span></td>
+									</tr>
+									<tr>
+										<td><span>Толщина</span></td>
+										<td class="val"><span>6</span></td>
+									</tr>
+									<tr>
+										<td><span>Тип рисунка</span></td>
+										<td class="val"><span>Однополосная</span></td>
+									</tr>
+									<tr>
+										<td><span>Порода дерева</span></td>
+										<td class="val"><span>Дуб</span></td>
+									</tr>
+									<tr>
+										<td><span>Страна</span></td>
+										<td class="val"><span>Россия</span></td>
+									</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="aside">
+								<div class="text">
+									<p><strong>О компании</strong> - Все изделия фирмы Windmöller имеют одну особенность: они
+									изготавливаются по строгим критериям качества! Контроль начинается с тщательного
+									выбора поставщиков сырья и продолжается на каждом отдельном этапе производства.
+									Служба поставок и высококвалифицированная сервисная команда имеют только одну цель:
+									полное удовлетворение пожеланий заказчика!</p>
+									<p>В ассортименте wineo вы найдёте коллекцию технических инноваций. Многие идеи и
+									патенты в этой области, а также их дальнейшее развитие принадлежит инженерам фирмы
+									Windmöller. Результат радует как специалистов, так и конечных потребителей. Пол, который
+									может многое выдержать, и который укладывается без проблем. Это отличная продукция,
+									с которой у вас не будет проблем.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-item" data-tab-item="p2">
+						<div class="head clearfix">
+							<div class="text">Отзывы</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="content-title">Рекомендуем также</div>
+
+		<div class="card-carousel sml flexslider cards">
+			<ul class="carousel-list slides">
+				<li>
+					<div class="card-item">
+						<div class="card-img">
+							<img src="img/upload/0001.jpg" alt="">
+						</div>
+						<div class="card-name">Ламинат Дуб италика дымчатый 530332</div>
+						<div class="card-sale">
+							<div class="card-sale__price">2 138 руб.</div>
+							<div class="card-sale__percent">-25%</div>
+						</div>
+						<div class="card-info">
+							<div class="card-info__price">99 138 руб.</div>
+							<a href="#" class="card-info__more">Подробнее</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="card-item">
+						<div class="card-img">
+							<img src="img/upload/0001.jpg" alt="">
+						</div>
+						<div class="card-name">Ламинат Дуб италика дымчатый 530332</div>
+						<div class="card-sale">
+						</div>
+						<div class="card-info">
+							<div class="card-info__price">99 138 руб.</div>
+							<a href="#" class="card-info__more">Подробнее</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="card-item">
+						<div class="card-img">
+							<img src="img/upload/0001.jpg" alt="">
+						</div>
+						<div class="card-name">Ламинат Дуб италика дымчатый 530332</div>
+						<div class="card-sale">
+							<div class="card-sale__price">2 138 руб.</div>
+							<div class="card-sale__percent">-25%</div>
+						</div>
+						<div class="card-info">
+							<div class="card-info__price">99 138 руб.</div>
+							<a href="#" class="card-info__more">Подробнее</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="card-item">
+						<div class="card-img"><img src="img/upload/0001.jpg" alt=""></div>
+						<div class="card-name">Ламинат Дуб италика дымчатый 530332</div>
+						<div class="card-sale">
+							<div class="card-sale__price">2 138 руб.</div>
+							<div class="card-sale__percent">-25%</div>
+						</div>
+						<div class="card-info">
+							<div class="card-info__price">99 138 руб.</div>
+							<a href="#" class="card-info__more">Подробнее</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="card-item">
+						<div class="card-img"><img src="img/upload/0001.jpg" alt=""></div>
+						<div class="card-name">Ламинат Дуб италика дымчатый 530332</div>
+						<div class="card-sale">
+							<div class="card-sale__price">2 138 руб.</div>
+							<div class="card-sale__percent">-25%</div>
+						</div>
+						<div class="card-info">
+							<div class="card-info__price">99 138 руб.</div>
+							<a href="#" class="card-info__more">Подробнее</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="card-item">
+						<div class="card-img"><img src="img/upload/0001.jpg" alt=""></div>
+						<div class="card-name">Ламинат Дуб италика дымчатый 530332</div>
+						<div class="card-sale">
+							<div class="card-sale__price">2 138 руб.</div>
+							<div class="card-sale__percent">-25%</div>
+						</div>
+						<div class="card-info">
+							<div class="card-info__price">99 138 руб.</div>
+							<a href="#" class="card-info__more">Подробнее</a>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+		<div class="content-title">Похожие товары</div>
+
+		<div class="card-carousel big flexslider cards">
+			<ul class="carousel-list slides">
+				<li>
+					<div class="card-item">
+						<div class="card-img">
+							<img src="img/upload/0001.jpg" alt="">
+							<span class="card-img__label">Распродажа</span>
+						</div>
+						<div class="card-name">Ламинат Дуб италика дымчатый 530332</div>
+						<div class="card-sale">
+							<div class="card-sale__price">2 138 руб.</div>
+							<div class="card-sale__percent">-25%</div>
+						</div>
+						<div class="card-info">
+							<div class="card-info__price">99 138 руб.</div>
+							<a href="#" class="card-info__more">Подробнее</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="card-item">
+						<div class="card-img">
+							<img src="img/upload/0001.jpg" alt="">
+							<span class="card-img__label">Акция</span>
+						</div>
+						<div class="card-name">Ламинат Дуб италика дымчатый 530332</div>
+						<div class="card-sale">
+						</div>
+						<div class="card-info">
+							<div class="card-info__price">99 138 руб.</div>
+							<a href="#" class="card-info__more">Подробнее</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="card-item">
+						<div class="card-img">
+							<img src="img/upload/0001.jpg" alt="">
+							<span class="card-img__label">Бесплатная доставка</span>
+						</div>
+						<div class="card-name">Ламинат Дуб италика дымчатый 530332</div>
+						<div class="card-sale">
+						</div>
+						<div class="card-info">
+							<div class="card-info__price">99 138 руб.</div>
+							<a href="#" class="card-info__more">Подробнее</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="card-item">
+						<div class="card-img"><img src="img/upload/0001.jpg" alt=""></div>
+						<div class="card-name">Ламинат Дуб италика дымчатый 530332</div>
+						<div class="card-sale">
+							<div class="card-sale__price">2 138 руб.</div>
+							<div class="card-sale__percent">-25%</div>
+						</div>
+						<div class="card-info">
+							<div class="card-info__price">99 138 руб.</div>
+							<a href="#" class="card-info__more">Подробнее</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="card-item">
+						<div class="card-img"><img src="img/upload/0001.jpg" alt=""></div>
+						<div class="card-name">Ламинат Дуб италика дымчатый 530332</div>
+						<div class="card-sale">
+							<div class="card-sale__price">2 138 руб.</div>
+							<div class="card-sale__percent">-25%</div>
+						</div>
+						<div class="card-info">
+							<div class="card-info__price">99 138 руб.</div>
+							<a href="#" class="card-info__more">Подробнее</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="card-item">
+						<div class="card-img"><img src="img/upload/0001.jpg" alt=""></div>
+						<div class="card-name">Ламинат Дуб италика дымчатый 530332</div>
+						<div class="card-sale">
+							<div class="card-sale__price">2 138 руб.</div>
+							<div class="card-sale__percent">-25%</div>
+						</div>
+						<div class="card-info">
+							<div class="card-info__price">99 138 руб.</div>
+							<a href="#" class="card-info__more">Подробнее</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="card-item">
+						<div class="card-img"><img src="img/upload/0001.jpg" alt=""></div>
+						<div class="card-name">Ламинат Дуб италика дымчатый 530332</div>
+						<div class="card-sale">
+							<div class="card-sale__price">2 138 руб.</div>
+							<div class="card-sale__percent">-25%</div>
+						</div>
+						<div class="card-info">
+							<div class="card-info__price">99 138 руб.</div>
+							<a href="#" class="card-info__more">Подробнее</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="card-item">
+						<div class="card-img"><img src="img/upload/0001.jpg" alt=""></div>
+						<div class="card-name">Ламинат Дуб италика дымчатый 530332</div>
+						<div class="card-sale">
+							<div class="card-sale__price">2 138 руб.</div>
+							<div class="card-sale__percent">-25%</div>
+						</div>
+						<div class="card-info">
+							<div class="card-info__price">99 138 руб.</div>
+							<a href="#" class="card-info__more">Подробнее</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="card-item">
+						<div class="card-img"><img src="img/upload/0001.jpg" alt=""></div>
+						<div class="card-name">Ламинат Дуб италика дымчатый 530332</div>
+						<div class="card-sale">
+							<div class="card-sale__price">2 138 руб.</div>
+							<div class="card-sale__percent">-25%</div>
+						</div>
+						<div class="card-info">
+							<div class="card-info__price">99 138 руб.</div>
+							<a href="#" class="card-info__more">Подробнее</a>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+		<div class="contact clearfix">
+
+			<div class="aside-left">
+				<div class="content-title">Схема нашей работы</div>
+
+
+				<div class="order-tabs js-tab-wrap">
+					<div class="tab-menu">
+						<div class="tab-link active" data-tab-link="order1">ЗАКАЗ ПО ТЕЛЕФОНУ</div>
+						<div class="tab-link" data-tab-link="order2">ЗАКАЗ ЧЕРЕЗ ИНТЕРНЕТ-МАГАЗИН</div>
+					</div>
+
+					<div class="tab-list">
+						<div class="tab-item active" data-tab-item="order1">
+							<img src="img/global/work-scheme-phone_wide.png" class="view-wide">
+							<img src="img/global/work-scheme-phone_narrow.png" class="view-narrow">
+						</div>
+						<div class="tab-item" data-tab-item="order2">
+							2
+						</div>
+					</div>
+				</div>
+
+				<div class="content-title">Вы уже смотрели</div>
+
+				<div class="card-carousel sml flexslider cards">
+					<ul class="carousel-list slides">
+						<li>
+							<div class="card-item">
+								<div class="card-img">
+									<img src="img/upload/0001.jpg" alt="">
+								</div>
+								<div class="card-name">Ламинат Дуб италика дымчатый 530332</div>
+								<div class="card-sale">
+									<div class="card-sale__price">2 138 руб.</div>
+									<div class="card-sale__percent">-25%</div>
+								</div>
+								<div class="card-info">
+									<div class="card-info__price">99 138 руб.</div>
+									<a href="#" class="card-info__more">Подробнее</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="card-item">
+								<div class="card-img">
+									<img src="img/upload/0001.jpg" alt="">
+								</div>
+								<div class="card-name">Ламинат Дуб италика дымчатый 530332</div>
+								<div class="card-sale">
+								</div>
+								<div class="card-info">
+									<div class="card-info__price">99 138 руб.</div>
+									<a href="#" class="card-info__more">Подробнее</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="card-item">
+								<div class="card-img">
+									<img src="img/upload/0001.jpg" alt="">
+								</div>
+								<div class="card-name">Ламинат Дуб италика дымчатый 530332</div>
+								<div class="card-sale">
+									<div class="card-sale__price">2 138 руб.</div>
+									<div class="card-sale__percent">-25%</div>
+								</div>
+								<div class="card-info">
+									<div class="card-info__price">99 138 руб.</div>
+									<a href="#" class="card-info__more">Подробнее</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="card-item">
+								<div class="card-img"><img src="img/upload/0001.jpg" alt=""></div>
+								<div class="card-name">Ламинат Дуб италика дымчатый 530332</div>
+								<div class="card-sale">
+									<div class="card-sale__price">2 138 руб.</div>
+									<div class="card-sale__percent">-25%</div>
+								</div>
+								<div class="card-info">
+									<div class="card-info__price">99 138 руб.</div>
+									<a href="#" class="card-info__more">Подробнее</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="card-item">
+								<div class="card-img"><img src="img/upload/0001.jpg" alt=""></div>
+								<div class="card-name">Ламинат Дуб италика дымчатый 530332</div>
+								<div class="card-sale">
+									<div class="card-sale__price">2 138 руб.</div>
+									<div class="card-sale__percent">-25%</div>
+								</div>
+								<div class="card-info">
+									<div class="card-info__price">99 138 руб.</div>
+									<a href="#" class="card-info__more">Подробнее</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="card-item">
+								<div class="card-img"><img src="img/upload/0001.jpg" alt=""></div>
+								<div class="card-name">Ламинат Дуб италика дымчатый 530332</div>
+								<div class="card-sale">
+									<div class="card-sale__price">2 138 руб.</div>
+									<div class="card-sale__percent">-25%</div>
+								</div>
+								<div class="card-info">
+									<div class="card-info__price">99 138 руб.</div>
+									<a href="#" class="card-info__more">Подробнее</a>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+			<div class="aside-right">
+				<div class="feedback-form">
+					<div class="title">ОСТАЛИСЬ ВОПРОСЫ?<br>ЗВОНИТЕ :</div>
+					<div class="phone">8 (800) <b>555 54 22</b></div>
+					<br>
+					<br>
+					<div class="title">ИЛИ ЗАКАЖИТЕ<br>ОБРАТНЫЙ ЗВОНОК</div>
+					<div class="text">(мы перезвоним Вам в течении 20 минут)</div>
+					<br>
+					<br>
+					<div class="label required">Ваше имя</div>
+					<div class="field">
+						<input class="" type="text">
+					</div>
+					<div class="label required">Телефон</div>
+					<div class="field">
+						<input class="" type="text">
+					</div>
+					<div class="label">Ваше сообщение</div>
+					<div class="field">
+						<textarea></textarea>
+					</div>
+					<div class="text">Пункты, отмеченные <i class="required"></i> обязательны для заполнения</div>
+
+					<div class="submit"><a href="#" class="btn">Отправить</a></div>
+				</div>
+			</div>
+
+		</div>
+
+	</div><!-- .content-->
+
+	<footer class="footer outer clearfix">
+		<div class="inner">
+			<div class="footer-block footer-block_1">
+				<div class="footer-logo"><img src="img/global/logo.png" alt=""></div>
+				<div class="footer-contact">
+					<div class="footer-contact__phone">8 (800) <b>555 54 22</b> / 8 (812) <b>702 87 33</b></div>
+					<div class="footer-contact__text">
+						Прием звонков : <b>пн-вс с 9:00 до 20:00</b><br>
+						Прием заказов на сайте : <b>круглосуточно</b>
+					</div>
+					<div class="footer-contact__address">Санкт-Петербург, ТК «Мебельвуд» пр.Дальневосточный, 14, оф.411</div>
+				</div>
+			</div>
+			<div class="footer-block footer-block_2">
+				<div class="footer-nav">
+					<div class="footer-nav__col">
+						<div class="footer-nav__title">Сервис и помощь</div>
+						<ul class="footer-nav__list">
+							<li><a href="#">Как сделать заказ</a></li>
+							<li><a href="#">Возврат</a></li>
+							<li><a href="#">Публичная оферта</a></li>
+							<li><a href="#">Способы оплаты</a></li>
+							<li><a href="#">Правила продажи</a></li>
+						</ul>
+					</div>
+					<div class="footer-nav__col">
+						<div class="footer-nav__title">О компании</div>
+						<ul class="footer-nav__list">
+							<li><a href="#">О нас</a></li>
+							<li><a href="#">Контакты</a></li>
+							<li><a href="#">Преимущества</a></li>
+							<li><a href="#">Вакансии</a></li>
+							<li><a href="#">Сертификаты</a></li>
+						</ul>
+						<ul class="footer-nav__list">
+							<li><a href="#">Партнеры</a></li>
+							<li><a href="#">Акции и скидки</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer-soc">
+					<a href="#" class="soc-link soc-link_vk"></a>
+					<a href="#" class="soc-link soc-link_fb"></a>
+					<a href="#" class="soc-link soc-link_tw"></a>
+					<a href="#" class="soc-link soc-link_gp"></a>
+				</div>
+			</div>
+			<div class="footer-block footer-block_3">
+				<div class="footer-pay">
+					<div class="footer-pay__title">Способ оплаты</div>
+					<div class="footer-pay__list">
+						<a href="#" class="footer-pay__item"><img src="img/global/pay-qiwi.png" alt=""></a>
+						<a href="#" class="footer-pay__item"><img src="img/global/pay-visa.png" alt=""></a>
+						<a href="#" class="footer-pay__item"><img src="img/global/pay-mastercard.png" alt=""></a>
+						<a href="#" class="footer-pay__item"><img src="img/global/pay-yandex.png" alt=""></a>
+					</div>
+				</div>
+				<div class="footer-copy">Copyright 2015 © Market-spb.com - интернет магазин строительных материалов Все права защищены. Доставка по всей России!</div>
+			</div>
+
+		</div>
+	</footer><!-- .footer -->
+
+</div><!-- .wrapper -->
+
+</body>
+</html>
