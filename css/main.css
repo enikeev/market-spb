@@ -326,7 +326,7 @@
 	position: absolute;
 	left: 100%;
 	top: 0px;
-	min-height: 369px;
+	min-height: 357px;
 	display: none;
 	background: #fff;
 	border: 1px solid #cfcfcf;
@@ -1467,7 +1467,7 @@ i.required:after{
 }
 .product-left .img{
 	text-align: center;
-	max-width: 380px;
+	width: 380px;
 	position: relative;
 	min-height: 200px;
 	max-height: 380px;
