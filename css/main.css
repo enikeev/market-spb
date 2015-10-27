@@ -419,7 +419,7 @@
 
 
 .categories-menu{
-	margin: 30px 2px 40px;
+	margin: 30px 2px 40px 3px;
 }
 .categories-list{
 	font-size: 0;
@@ -436,7 +436,7 @@
 	display: block;
 	border: 2px solid #fff;
 	height: 250px;
-	background: #999;
+	/*background: #999;*/
 	text-decoration: none;
 	background-repeat: no-repeat;
 	background-position: 120% 0;
@@ -884,12 +884,33 @@
 }
 
 
+.aside-center .tabs_pop{
+	margin: 0 2px 0 3px;
+}
+.aside-center .tabs_pop .tab-list{
+	height: 295px;
+}
+.aside-center .tabs_pop .owl-item .card-item{
+	margin: 0;
+	border-left-width: 0;
+	width: 179px;
+}
+.narrow-view .aside-center .tabs_pop .owl-item .card-item{
+	width: 159px;
+}
+.aside-center .tabs_pop .owl-item:first-child .card-item{
+	margin: 0;
+	border-left-width: 1px;
+}
+
+
+
 .brands-list{
 	padding: 15px 0;
 }
 .brands-list .brands-list__col{
 	float: left;
-	width: 140px;
+	width: 180px;
 	color: #989895;
 }
 .brands-list .brands-list__col li{

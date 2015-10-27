@@ -45,17 +45,60 @@ $(function(){
 		itemMargin: 0
 	});
 
-	$('.categories-menu').flexslider({
-		slideshow: false,
-		prevText: "",
-		nextText: "",
-		animation: "slide",
-		controlNav: false,
-		animationLoop: true,
-		itemWidth: 210,
-		move: 1,
-		itemMargin: 0
+	$('.categories-list').owlCarousel({
+		loop:false,
+		margin:0,
+		nav:true,
+		dots:false,
+		mouseDrag: false,
+		responsive:{
+			0:{
+				items:5
+			},
+			1300:{
+				items:6
+			}
+		}
 	});
+
+	$('.tab-carousel').each(function(){
+		if ( $(this).is(':visible') ){
+			tabCarousel($(this))
+		}
+	});
+
+	function tabCarousel($el){
+
+		if ( $el.hasClass('owl-carousel') ){
+			$el.trigger('destroy.owl.carousel');
+			$el.find('.card-item').unwrap();
+		}
+
+		$el.owlCarousel({
+			loop:false,
+			margin:0,
+			nav:true,
+			dots:false,
+			mouseDrag: false,
+			responsive:{
+				0:{
+					items:4
+				},
+				1300:{
+					items:5
+				}
+			},
+			onInitialized: function(){
+				var l = this._items.length;
+				var n = this._breakpoint == 0 ? 4 : 5;
+
+				if ( l <= n ){
+					this.$element.find('.owl-controls').hide();
+				}
+			}
+		});
+	}
+
 
 	if ( $('select').size() ) $('select').selectbox();
 
@@ -76,6 +119,8 @@ $(function(){
 			$item.filter('.active').removeClass('active');
 			$t.addClass('active');
 			$itemActive.addClass('active');
+
+			tabCarousel($itemActive.find('.tab-carousel'));
 		}
 	});
 
