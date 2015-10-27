@@ -235,7 +235,7 @@
 *****************************************************************************/
 
 .content{
-	padding-bottom:15px;
+	padding-bottom:45px;
 }
 
 .content-title{
@@ -419,13 +419,14 @@
 
 
 .categories-menu{
-	margin: 30px 0 40px;
+	margin: 30px 2px 40px;
 }
 .categories-list{
 	font-size: 0;
 }
 .categories-item{
-	width: 16.6666%;
+	/*width: 16.6666%;*/
+	width: 210px;
 	font-size: 20px;
 	font-weight: 700;
 	color: #fff;
@@ -880,6 +881,19 @@
 .cards.sml .card-sale,
 .cards.sml .card-info{
 	margin-left: 100px;
+}
+
+
+.brands-list{
+	padding: 15px 0;
+}
+.brands-list .brands-list__col{
+	float: left;
+	width: 140px;
+	color: #989895;
+}
+.brands-list .brands-list__col li{
+	margin: 2px 0;
 }
 
 

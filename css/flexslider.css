@@ -419,3 +419,38 @@ html[xmlns] .flexslider .slides {
 .looked-slider {
 	margin: 15px 0 10px;
 }
+
+
+
+
+
+.categories-menu{position: relative;}
+.categories-menu.flexslider{
+	position: relative;
+	height: 200px;
+}
+.categories-menu .flex-prev,
+.categories-menu .flex-next{
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 65px;
+	background: rgba(255,255,255,0.5);
+	margin: 0;
+}
+.categories-menu .flex-prev:after,
+.categories-menu .flex-next:after{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -16px;
+	margin-top: -40px;
+	height: 80px;
+	width: 33px;
+	background:  url("../img/global/carousel-arrows.png") no-repeat 0 0;
+}
+.categories-menu .flex-prev{left: 0}
+.categories-menu .flex-next{right: 0}
+.categories-menu .flex-next:after{background-position: -33px 0 ;}

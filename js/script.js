@@ -14,6 +14,7 @@ $(function(){
 		nextText: "",
 		animation: "slide",
 		controlNav: false,
+		slideshow: false,
 		animationLoop: false,
 		itemWidth: 201,
 		move: 1,
@@ -25,6 +26,7 @@ $(function(){
 		nextText: "",
 		animation: "slide",
 		controlNav: false,
+		slideshow: false,
 		animationLoop: false,
 		itemWidth: 321,
 		move: 1,
@@ -32,12 +34,25 @@ $(function(){
 	});
 
 	$('.looked-slider').flexslider({
+		slideshow: false,
 		prevText: "",
 		nextText: "",
 		animation: "slide",
 		controlNav: false,
 		animationLoop: true,
 		itemWidth: 101,
+		move: 1,
+		itemMargin: 0
+	});
+
+	$('.categories-menu').flexslider({
+		slideshow: false,
+		prevText: "",
+		nextText: "",
+		animation: "slide",
+		controlNav: false,
+		animationLoop: true,
+		itemWidth: 210,
 		move: 1,
 		itemMargin: 0
 	});

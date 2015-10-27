@@ -65,6 +65,9 @@
 .narrow-view .sticker {
 	display: none;
 }
+.narrow-view .categories-item {
+	width: 196px;
+}
 
 
 
